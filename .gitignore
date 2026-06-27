@@ -1,0 +1,11 @@
+# 忽略应用所有文件
+/*
+
+# 保留 .gitignore 自身
+!.gitignore
+
+# 仅保留简体中文翻译包（Localization/CHN）
+!/Localization/
+/Localization/*
+!/Localization/CHN/
+!/Localization/CHN/**
