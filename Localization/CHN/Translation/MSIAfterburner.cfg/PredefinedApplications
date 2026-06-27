@@ -1,0 +1,24 @@
+#src Load profile 1
+#dst 加载配置文件 1
+#end
+#src Load profile 2
+#dst 加载配置文件 2
+#end
+#src Load profile 3
+#dst 加载配置文件 3
+#end
+#src Load profile 4
+#dst 加载配置文件 4
+#end
+#src Load profile 5
+#dst 加载配置文件 5
+#end
+#src Load low power profile
+#dst 加载低功耗配置文件
+#end
+#src System
+#dst 系统
+#end
+#src System shutdown
+#dst 系统关机
+#end

@@ -1,0 +1,9 @@
+#src HDD temperature
+#dst 硬盘温度
+#end
+#src HDD%d temperature
+#dst 硬盘 %d 温度
+#end
+#src HDD%d temperature 2
+#dst 硬盘 %d 温度 2
+#end

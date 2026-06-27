@@ -1,0 +1,78 @@
+#src PerfCounter plugin settings
+#dst PerfCounter 插件设置
+#end
+#src Active data sources
+#dst 活动数据源
+#end
+#src Add
+#dst 添加
+#end
+#src Remove
+#dst 移除
+#end
+#src Defaults
+#dst 默认值
+#end
+#src Data source settings
+#dst 数据源设置
+#end
+#src Performance counter properties
+#dst 性能计数器属性
+#end
+#src Object name
+#dst 对象名称
+#end
+#src Instance name or index
+#dst 实例名称或索引
+#end
+#src Counter name
+#dst 计数器名称
+#end
+#src Plugin data source properties
+#dst 插件数据源属性
+#end
+#src Enable dynamic mode
+#dst 启用动态模式
+#end
+#src Units
+#dst 单位
+#end
+#src Format
+#dst 格式
+#end
+#src Formula
+#dst 公式
+#end
+#src x = off + x * mul / div
+#dst x = 偏移 + x * 乘数 / 除数
+#end
+#src Offset
+#dst 偏移
+#end
+#src Multiplier
+#dst 乘数
+#end
+#src Divider
+#dst 除数
+#end
+#src Group
+#dst 分组
+#end
+#src Range
+#dst 范围
+#end
+#src Add new data source(s)
+#dst 添加新数据源
+#end
+#src Available performance counters
+#dst 可用性能计数器
+#end
+#src Export
+#dst 导出
+#end
+#src Instance name
+#dst 实例名称
+#end
+#src Use instance index instead of name
+#dst 使用实例索引代替名称
+#end

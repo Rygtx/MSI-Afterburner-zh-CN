@@ -1,0 +1,105 @@
+#src PSU 12V voltage
+#dst PSU 12V 电压
+#end
+#src PSU 12V current
+#dst PSU 12V 电流
+#end
+#src PSU 12V1 voltage
+#dst PSU 12V1 电压
+#end
+#src PSU 12V1 current
+#dst PSU 12V1 电流
+#end
+#src PSU 12V2 voltage
+#dst PSU 12V2 电压
+#end
+#src PSU 12V2 current
+#dst PSU 12V2 电流
+#end
+#src PSU 12V3 voltage
+#dst PSU 12V3 电压
+#end
+#src PSU 12V3 current
+#dst PSU 12V3 电流
+#end
+#src PSU 12V4 voltage
+#dst PSU 12V4 电压
+#end
+#src PSU 12V4 current
+#dst PSU 12V4 电流
+#end
+#src PSU 12V5 voltage
+#dst PSU 12V5 电压
+#end
+#src PSU 12V5 current
+#dst PSU 12V5 电流
+#end
+#src PSU 5V voltage
+#dst PSU 5V 电压
+#end
+#src PSU 5V current
+#dst PSU 5V 电流
+#end
+#src PSU 3.3V voltage
+#dst PSU 3.3V 电压
+#end
+#src PSU 3.3V current
+#dst PSU 3.3V 电流
+#end
+#src PSU power
+#dst PSU 功率
+#end
+#src PSU efficiency
+#dst PSU 效率
+#end
+#src PSU temperature
+#dst PSU 温度
+#end
+#src PSU fan speed
+#dst PSU 风扇转速
+#end
+#src PSU 12VHPWR1_1 current
+#dst PSU 12VHPWR1_1 电流
+#end
+#src PSU 12VHPWR1_2 current
+#dst PSU 12VHPWR1_2 电流
+#end
+#src PSU 12VHPWR1_3 current
+#dst PSU 12VHPWR1_3 电流
+#end
+#src PSU 12VHPWR1_4 current
+#dst PSU 12VHPWR1_4 电流
+#end
+#src PSU 12VHPWR1_5 current
+#dst PSU 12VHPWR1_5 电流
+#end
+#src PSU 12VHPWR1_6 current
+#dst PSU 12VHPWR1_6 电流
+#end
+#src PSU 12VHPWR2_1 current
+#dst PSU 12VHPWR2_1 电流
+#end
+#src PSU 12VHPWR2_2 current
+#dst PSU 12VHPWR2_2 电流
+#end
+#src PSU 12VHPWR2_3 current
+#dst PSU 12VHPWR2_3 电流
+#end
+#src PSU 12VHPWR2_4 current
+#dst PSU 12VHPWR2_4 电流
+#end
+#src PSU 12VHPWR2_5 current
+#dst PSU 12VHPWR2_5 电流
+#end
+#src PSU 12VHPWR2_6 current
+#dst PSU 12VHPWR2_6 电流
+#end
+#src PSU 12VHPWR1 alarm
+#dst PSU 12VHPWR1 警报
+#end
+#src PSU 12VHPWR2 alarm
+#dst PSU 12VHPWR2 警报
+#end
+#src Enable MSI GPU Safeguard+
+#dst 启用 MSI GPU Safeguard+
+#end

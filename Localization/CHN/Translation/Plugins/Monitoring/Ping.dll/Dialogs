@@ -1,0 +1,6 @@
+#src Ping plugin settings
+#dst Ping 插件设置
+#end
+#src Target IP address
+#dst 目标 IP 地址
+#end

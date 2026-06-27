@@ -1,0 +1,54 @@
+#src AIDA64 plugin settings
+#dst AIDA64 插件设置
+#end
+#src Active data sources
+#dst 活动数据源
+#end
+#src Add
+#dst 添加
+#end
+#src Remove
+#dst 移除
+#end
+#src Defaults
+#dst 默认值
+#end
+#src Data source settings
+#dst 数据源设置
+#end
+#src AIDA64 sensor properties
+#dst AIDA64 传感器属性
+#end
+#src ID
+#dst ID
+#end
+#src Instance
+#dst 实例
+#end
+#src Name
+#dst 名称
+#end
+#src Plugin data source properties
+#dst 插件数据源属性
+#end
+#src Units
+#dst 单位
+#end
+#src Format
+#dst 格式
+#end
+#src Group
+#dst 分组
+#end
+#src Range
+#dst 范围
+#end
+#src Add new data source(s)
+#dst 添加新数据源
+#end
+#src Available AIDA64 sensors
+#dst 可用 AIDA64 传感器
+#end
+#src Export
+#dst 导出
+#end

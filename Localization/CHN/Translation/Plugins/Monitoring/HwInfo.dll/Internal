@@ -1,0 +1,60 @@
+#src Motherboard temperature
+#dst 主板温度
+#end
+#src CPU fan speed
+#dst CPU 风扇转速
+#end
+#src CPU voltage
+#dst CPU 电压
+#end
+#src PSU +3.3V voltage
+#dst PSU +3.3V 电压
+#end
+#src PSU +5V voltage
+#dst PSU +5V 电压
+#end
+#src PSU +12V voltage
+#dst PSU +12V 电压
+#end
+#src Source
+#dst 来源
+#end
+#src Sensor
+#dst 传感器
+#end
+#src Value
+#dst 数值
+#end
+#src Temperature
+#dst 温度
+#end
+#src Voltage
+#dst 电压
+#end
+#src Current
+#dst 电流
+#end
+#src Clock
+#dst 频率
+#end
+#src Usage
+#dst 使用率
+#end
+#src Other
+#dst 其他
+#end
+#src Sensors exported to %s!
+#dst 传感器已导出到 %s!
+#end
+#src UPS voltage
+#dst UPS 电压
+#end
+#src UPS power
+#dst UPS 功率
+#end
+#src UPS load
+#dst UPS 负载
+#end
+#src UPS charge level
+#dst UPS 电量
+#end

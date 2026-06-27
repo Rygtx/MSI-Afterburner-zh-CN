@@ -1,0 +1,33 @@
+#src HDD%d usage
+#dst 硬盘 %d 使用率
+#end
+#src HDD%d read rate
+#dst 硬盘 %d 读取速率
+#end
+#src HDD%d write rate
+#dst 硬盘 %d 写入速率
+#end
+#src MB/s
+#dst MB/s
+#end
+#src Free disk space C:
+#dst C: 盘可用空间
+#end
+#src GB
+#dst GB
+#end
+#src NET%d download rate
+#dst 网络 %d 下载速率
+#end
+#src NET%d upload rate
+#dst 网络 %d 上传速率
+#end
+#src KB/s
+#dst KB/s
+#end
+#src Counter
+#dst 计数器
+#end
+#src Counters exported to %s!
+#dst 计数器已导出到 %s!
+#end

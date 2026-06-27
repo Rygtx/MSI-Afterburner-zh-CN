@@ -1,0 +1,7 @@
+报警应用程序路径
+显示并允许编辑要在报警时启动的外部应用程序的路径。
+
+提示：
+- 此选项受相邻的报警超时设置影响。
+- 您可以在路径中使用宏变量。使用 %WinDir% 指定 Windows 目录,使用 %SysDir% 指定 Windows\System32 目录,使用 %ABDir% 指定 %PRODUCTNAME% 安装目录,或使用 %AB% 指定 %PRODUCTNAME% 可执行文件的完整路径。
+- 您可以通过高级属性中的 <User interface> 选项卡禁用用户界面工具提示。
