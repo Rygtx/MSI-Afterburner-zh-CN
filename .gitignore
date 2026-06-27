@@ -16,3 +16,6 @@
 !/SDK/Doc/
 /SDK/Doc/*
 !/SDK/Doc/Localization reference.md
+
+# 保留根目录 README.md
+!/README.md
