@@ -87,7 +87,7 @@
 #src Enable user defined software automatic fan control
 #dst 启用用户自定义软件自动风扇控制
 #end
-#src Temperature, ??C
+#src Temperature, °C
 #dst 温度,°C
 #end
 #src Fan speed, %
@@ -105,7 +105,7 @@
 #src Fan speed update period (in milliseconds)
 #dst 风扇转速更新周期(毫秒)
 #end
-#src Temperature hysteresis (in ??C)
+#src Temperature hysteresis (in °C)
 #dst 温度迟滞(°C)
 #end
 #src Force fan speed update on each period
