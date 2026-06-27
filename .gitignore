@@ -9,3 +9,10 @@
 /Localization/*
 !/Localization/CHN/
 !/Localization/CHN/**
+
+# 保留本地化参考文档（SDK/Doc/Localization reference.md）
+!/SDK/
+/SDK/*
+!/SDK/Doc/
+/SDK/Doc/*
+!/SDK/Doc/Localization reference.md
