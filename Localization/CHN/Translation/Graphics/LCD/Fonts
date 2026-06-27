@@ -10,3 +10,19 @@
 #src 6x8 font
 #dst 字体 6x8
 #end
+
+#src 8x12 font
+#dst 8x12 字体
+#end
+
+#src 10x12 font
+#dst 10x12 字体
+#end
+
+#src 12x12 font
+#dst 12x12 字体
+#end
+
+#src 12x16 font
+#dst 12x16 字体
+#end

@@ -17,25 +17,25 @@
 #dst PCB%d ???
 #end
 #src Fan speed
-#dst ???????
+#dst 风扇转速
 #end
 #src GPU%d fan speed
 #dst GPU%d ???????
 #end
 #src Core clock
-#dst ???????
+#dst 核心频率
 #end
 #src GPU%d core clock
 #dst GPU%d ???????
 #end
 #src Shader clock
-#dst ????????
+#dst 着色器频率
 #end
 #src GPU%d shader clock
 #dst GPU%d ????????
 #end
 #src Memory clock
-#dst ??????
+#dst 显存频率
 #end
 #src GPU%d memory clock
 #dst GPU%d ??????
@@ -47,10 +47,10 @@
 #dst GPU%d ?????
 #end
 #src Framerate
-#dst ???
+#dst 帧率
 #end
 #src Memory usage
-#dst ????????
+#dst 显存使用率
 #end
 #src GPU%d memory usage
 #dst GPU%d ????????
@@ -83,22 +83,22 @@
 #dst %+.3fV
 #end
 #src Auto
-#dst ???
+#dst 自动
 #end
 #src Aux voltage
-#dst ???????
+#dst 辅助电压
 #end
 #src GPU%d aux voltage
 #dst GPU%d ???????
 #end
 #src Memory voltage
-#dst ?????
+#dst 显存电压
 #end
 #src GPU%d memory voltage
 #dst GPU%d ?????
 #end
 #src Fan tachometer
-#dst ????????
+#dst 风扇转速计
 #end
 #src GPU%d fan tachometer
 #dst GPU%d ????????
@@ -107,7 +107,7 @@
 #dst RPM
 #end
 #src Memory temperature
-#dst ??????
+#dst 显存温度
 #end
 #src GPU%d memory temperature
 #dst GPU%d ??????
@@ -122,43 +122,43 @@
 #dst ?????????????????????????????????? MSI ???????????κ????
 #end
 #src Power
-#dst ????
+#dst 功耗
 #end
 #src GPU%d power
 #dst GPU%d ????
 #end
 #src Frametime
-#dst ????
+#dst 帧时间
 #end
 #src ms
 #dst ms
 #end
 #src Temp limit
-#dst ???????
+#dst 温度限制
 #end
 #src GPU%d temp limit
 #dst GPU%d ???????
 #end
 #src Power limit
-#dst ????????
+#dst 功耗限制
 #end
 #src GPU%d power limit
 #dst GPU%d ????????
 #end
 #src Voltage limit
-#dst ???????
+#dst 电压限制
 #end
 #src GPU%d voltage limit
 #dst GPU%d ???????
 #end
 #src OV max limit
-#dst ??????????
+#dst 过压最大限制
 #end
 #src GPU%d OV max limit
 #dst GPU%d ??????????
 #end
 #src FB usage
-#dst ??????????
+#dst FB 使用率
 #end
 #src GPU%d FB usage
 #dst GPU%d ??????????
@@ -170,14 +170,267 @@
 #dst GPU%d VID ?????
 #end
 #src BUS usage
-#dst ?????????
+#dst 总线使用率
 #end
 #src GPU%d BUS usage
 #dst GPU%d ?????????
 #end
 #src No load limit
-#dst ????????
+#dst 空载限制
 #end
 #src GPU%d no load limit
 #dst GPU%d ????????
+#end
+
+#src Memory usage \ process
+#dst 内存使用率 \ 进程
+#end
+#src GPU%d memory usage \ process
+#dst GPU%d 内存使用率 \ 进程
+#end
+#src Power percent
+#dst 功耗百分比
+#end
+#src GPU%d power percent
+#dst GPU%d 功耗百分比
+#end
+#src CPU usage
+#dst CPU 使用率
+#end
+#src CPU%d usage
+#dst CPU%d 使用率
+#end
+#src RAM usage
+#dst RAM 使用率
+#end
+#src RAM usage \ process
+#dst RAM 使用率 \ 进程
+#end
+#src Commit charge
+#dst 提交内存
+#end
+#src CPU temperature
+#dst CPU 温度
+#end
+#src CPU%d temperature
+#dst CPU%d 温度
+#end
+#src SLI sync limit
+#dst SLI 同步限制
+#end
+#src GPU%d SLI sync limit
+#dst GPU%d SLI 同步限制
+#end
+#src Frequency, MHz
+#dst 频率, MHz
+#end
+#src Voltage, mV
+#dst 电压, mV
+#end
+#src Power, %
+#dst 功耗, %
+#end
+#src OC Scanner
+#dst OC Scanner
+#end
+#src W
+#dst W
+#end
+#src CPU clock
+#dst CPU 频率
+#end
+#src CPU%d clock
+#dst CPU%d 频率
+#end
+#src Aux2 voltage
+#dst 辅助电压 2
+#end
+#src GPU%d aux2 voltage
+#dst GPU%d 辅助电压 2
+#end
+#src GPU temperature 2
+#dst GPU 温度 2
+#end
+#src GPU%d temperature 2
+#dst GPU%d 温度 2
+#end
+#src PCB temperature 2
+#dst PCB 温度 2
+#end
+#src PCB%d temperature 2
+#dst PCB%d 温度 2
+#end
+#src Memory temperature 2
+#dst 显存温度 2
+#end
+#src GPU%d memory temperature 2
+#dst GPU%d 显存温度 2
+#end
+#src VRM temperature 2
+#dst VRM 温度 2
+#end
+#src GPU%d VRM temperature 2
+#dst GPU%d VRM 温度 2
+#end
+#src GPU temperature 3
+#dst GPU 温度 3
+#end
+#src GPU%d temperature 3
+#dst GPU%d 温度 3
+#end
+#src PCB temperature 3
+#dst PCB 温度 3
+#end
+#src PCB%d temperature 3
+#dst PCB%d 温度 3
+#end
+#src Memory temperature 3
+#dst 显存温度 3
+#end
+#src GPU%d memory temperature 3
+#dst GPU%d 显存温度 3
+#end
+#src VRM temperature 3
+#dst VRM 温度 3
+#end
+#src GPU%d VRM temperature 3
+#dst GPU%d VRM 温度 3
+#end
+#src GPU temperature 4
+#dst GPU 温度 4
+#end
+#src GPU%d temperature 4
+#dst GPU%d 温度 4
+#end
+#src PCB temperature 4
+#dst PCB 温度 4
+#end
+#src PCB%d temperature 4
+#dst PCB%d 温度 4
+#end
+#src Memory temperature 4
+#dst 显存温度 4
+#end
+#src GPU%d memory temperature 4
+#dst GPU%d 显存温度 4
+#end
+#src VRM temperature 4
+#dst VRM 温度 4
+#end
+#src GPU%d VRM temperature 4
+#dst GPU%d VRM 温度 4
+#end
+#src GPU temperature 5
+#dst GPU 温度 5
+#end
+#src GPU%d temperature 5
+#dst GPU%d 温度 5
+#end
+#src PCB temperature 5
+#dst PCB 温度 5
+#end
+#src PCB%d temperature 5
+#dst PCB%d 温度 5
+#end
+#src Memory temperature 5
+#dst 显存温度 5
+#end
+#src GPU%d memory temperature 5
+#dst GPU%d 显存温度 5
+#end
+#src VRM temperature 5
+#dst VRM 温度 5
+#end
+#src GPU%d VRM temperature 5
+#dst GPU%d VRM 温度 5
+#end
+#src <GPU plugin>
+#dst <GPU 插件>
+#end
+#src <CPU plugin>
+#dst <CPU 插件>
+#end
+#src <motherboard plugin>
+#dst <主板插件>
+#end
+#src <RAM plugin>
+#dst <RAM 插件>
+#end
+#src <HDD plugin>
+#dst <HDD 插件>
+#end
+#src <NET plugin>
+#dst <NET 插件>
+#end
+#src <PSU plugin>
+#dst <PSU 插件>
+#end
+#src <UPS plugin>
+#dst <UPS 插件>
+#end
+#src <miscellaneous plugin>
+#dst <杂项插件>
+#end
+#src Framerate Min
+#dst 帧率 最小值
+#end
+#src Framerate Avg
+#dst 帧率 平均值
+#end
+#src Framerate Max
+#dst 帧率 最大值
+#end
+#src Framerate 1% Low
+#dst 帧率 1% 最低
+#end
+#src Framerate 0.1% Low
+#dst 帧率 0.1% 最低
+#end
+#src CPU power
+#dst CPU 功耗
+#end
+#src CPU%d power
+#dst CPU%d 功耗
+#end
+#src Fan speed 2
+#dst 风扇转速 2
+#end
+#src GPU%d fan speed 2
+#dst GPU%d 风扇转速 2
+#end
+#src Fan tachometer 2
+#dst 风扇转速计 2
+#end
+#src GPU%d fan tachometer 2
+#dst GPU%d 风扇转速计 2
+#end
+#src Fan speed 3
+#dst 风扇转速 3
+#end
+#src GPU%d fan speed 3
+#dst GPU%d 风扇转速 3
+#end
+#src Fan tachometer 3
+#dst 风扇转速计 3
+#end
+#src GPU%d fan tachometer 3
+#dst GPU%d 风扇转速计 3
+#end
+#src Fan 1
+#dst 风扇 1
+#end
+#src Fan 2
+#dst 风扇 2
+#end
+#src Fan 3
+#dst 风扇 3
+#end
+#src Fan 4
+#dst 风扇 4
+#end
+#src firmware
+#dst 固件
+#end
+#src %d nodes
+#dst %d 个节点
 #end

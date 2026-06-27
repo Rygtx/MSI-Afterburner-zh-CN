@@ -88,7 +88,7 @@
 #end
 
 #src Display driver
-#dst ???????????
+#dst 显示驱动程序
 #end
 
 #src %dMB
@@ -96,7 +96,7 @@
 #end
 
 #src On-board memory
-#dst ???????
+#dst 板载显存
 #end
 
 #src BIOS
@@ -128,11 +128,11 @@
 #end
 
 #src tray
-#dst ??????
+#dst 托盘
 #end
 
 #src Select a graph to access graph properties
-#dst ?????????????????????
+#dst 选择图表以访问图表属性
 #end
 
 #src %s graph properties
@@ -140,7 +140,7 @@
 #end
 
 #src Tick checkmark to activate the graph and access graph properties
-#dst ?????????????????????????????
+#dst 勾选以激活图表并访问图表属性
 #end
 
 #src Updating %d graph(s) with %d ms period, polling time : %.3f ms, GUI time : %.3f ms
@@ -167,16 +167,12 @@
 #dst MSI Afterburner ????
 #end
 
-#src The changes you've made will be applied after restarting MSI Afterburner.
-#dst ?????????????????? MSI Afterburner ????á?
-#end
-
 #src On-Screen Display server
-#dst ????????????
+#dst 屏幕显示服务器
 #end
 
 #src Active client(s)
-#dst ????????
+#dst 活动客户端
 #end
 
 #src server is not loaded
@@ -220,19 +216,19 @@
 #end
 
 #src framerate monitoring module
-#dst ????????
+#dst 帧率监控模块
 #end
 
 #src On-Screen Display module
-#dst ?????????
+#dst 屏幕显示模块
 #end
 
 #src automatic profiles manager
-#dst ????????????????
+#dst 自动配置文件管理器
 #end
 
 #src screen capture module
-#dst ?????????
+#dst 屏幕捕获模块
 #end
 
 #src You've activated user defined software automatic fan control mode for the first time. Please take a note that you can redefine the fan speed curve for this mode via advanced MSI Afterburner properties. Do you want to go to advanced properties and edit the curve right now?
@@ -256,11 +252,11 @@
 #end
 
 #src Graph
-#dst ???
+#dst 图表
 #end
 
 #src Properties
-#dst ????
+#dst 属性
 #end
 
 #src Min
@@ -268,7 +264,7 @@
 #end
 
 #src Max
-#dst ???
+#dst 最大值
 #end
 
 #src About %s
@@ -280,7 +276,7 @@
 #end
 
 #src Hardware monitor is paused
-#dst ???????????
+#dst 硬件监控已暂停
 #end
 
 #src %s localization creator
@@ -292,11 +288,11 @@
 #end
 
 #src Profiles modification locked
-#dst ????????????????
+#dst 配置文件修改已锁定
 #end
 
 #src Profiles modification unlocked
-#dst ???????????????
+#dst 配置文件修改已解锁
 #end
 
 #src Resource file copy has been successfully saved to %s!
@@ -308,7 +304,7 @@
 #end
 
 #src Log session started
-#dst ?????????
+#dst 日志会话已开始
 #end
 
 #src Log session terminated due to write failure
@@ -316,7 +312,7 @@
 #end
 
 #src Log session terminated due to user request
-#dst ?????????????????????
+#dst 由于用户请求,日志会话已终止
 #end
 
 #src Log session terminated due to log size overflow
@@ -336,7 +332,7 @@
 #end
 
 #src Voltage defaults captured
-#dst ??????????
+#dst 电压默认值已捕获
 #end
 
 #src Failed to initialize hotkey handler, global hotkeys will not function properly!
@@ -356,11 +352,11 @@
 #end
 
 #src On-Screen Display Server is blocked
-#dst ??????????????????
+#dst 屏幕显示服务器被阻止
 #end
 
 #src Screenshot captured
-#dst ??????????
+#dst 屏幕截图已捕获
 #end
 
 #src Please select target folder for video capture
@@ -368,7 +364,7 @@
 #end
 
 #src video capture module
-#dst ??????????
+#dst 视频捕获模块
 #end
 
 #src %d%% quality
@@ -380,7 +376,7 @@
 #end
 
 #src External profile applied
-#dst ??????????????
+#dst 已应用外部配置文件
 #end
 
 #src There is no new version available at this time. Currently installed version is up to date.
@@ -400,11 +396,11 @@
 #end
 
 #src cannot open internet connection
-#dst ??????????????
+#dst 无法打开互联网连接
 #end
 
 #src cannot open server connection
-#dst ??????????????
+#dst 无法打开服务器连接
 #end
 
 #src cannot open HTTP request
@@ -420,11 +416,11 @@
 #end
 
 #src proxy authentification required
-#dst ??????????????
+#dst 需要代理身份验证
 #end
 
 #src cannot read file
-#dst ?????????
+#dst 无法读取文件
 #end
 
 #src unknown reason %d
@@ -444,11 +440,11 @@
 #end
 
 #src Clock limits have been extended. Please reboot the PC in order to apply the changes.
-#dst ?????????????????????????????????????
+#dst 时钟限制已扩展。请重新启动电脑以应用更改。
 #end
 
 #src Clock limits have been restored. Please reboot the PC in order to apply the changes.
-#dst ????????????????????????????????????
+#dst 时钟限制已恢复。请重新启动电脑以应用更改。
 #end
 
 #src It is strongly recommended to reboot the PC in order to detect default settings properly. Do you want to reboot it right now? Answer NO to detect default settings without rebooting the PC.
@@ -464,7 +460,7 @@
 #end
 
 #src Framerate limit disabled
-#dst ????????????
+#dst 帧率限制已禁用
 #end
 
 #src Power limit %s
@@ -484,7 +480,7 @@
 #end
 
 #src Assigned hotkeys
-#dst ?????????
+#dst 已分配的热键
 #end
 
 #src Profile 1
@@ -524,11 +520,11 @@
 #end
 
 #src Capture screenshot
-#dst ?????????
+#dst 捕获屏幕截图
 #end
 
 #src Capture video
-#dst ???????
+#dst 捕获视频
 #end
 
 #src Push-To-Talk 1
@@ -560,7 +556,7 @@
 #end
 
 #src Registry key
-#dst ??????
+#dst 注册表项
 #end
 
 #src Path
@@ -573,4 +569,499 @@
 
 #src Version
 #dst ?汾
+#end
+
+#src The changes you've made will be applied after restarting MSI Afterburner.  Do you want to restart it now?
+#dst 您所做的更改将在重启 MSI Afterburner 后生效。是否立即重启?
+#end
+
+#src MPNG compression
+#dst MPNG 压缩
+#end
+
+#src Audio Video Interleave AVI
+#dst 音视频交错 AVI
+#end
+
+#src Matroska MKV
+#dst Matroska MKV
+#end
+
+#src external plugin : %s
+#dst 外部插件 : %s
+#end
+
+#src Please configure external plugin or select different video format.
+#dst 请配置外部插件或选择其他视频格式。
+#end
+
+#src This video format is not compatible with AVI container. Please select different video or container format.
+#dst 此视频格式与 AVI 容器不兼容。请选择其他视频或容器格式。
+#end
+
+#src CPU
+#dst CPU
+#end
+
+#src Model
+#dst 型号
+#end
+
+#src Logical cores
+#dst 逻辑核心
+#end
+
+#src %s family %X, model %X, stepping %X
+#dst %s 系列 %X,型号 %X,步进 %X
+#end
+
+#src CPUID
+#dst CPUID
+#end
+
+#src %d°C
+#dst %d°C
+#end
+
+#src Tjmax
+#dst Tjmax
+#end
+
+#src Prerecord video
+#dst 预录视频
+#end
+
+#src graph
+#dst 图表
+#end
+
+#src Reason: failed to load %s
+#dst 原因:无法加载 %s
+#end
+
+#src Profile 6
+#dst 配置文件 6
+#end
+
+#src Profile 7
+#dst 配置文件 7
+#end
+
+#src Profile 8
+#dst 配置文件 8
+#end
+
+#src Profile 9
+#dst 配置文件 9
+#end
+
+#src Profile 0
+#dst 配置文件 0
+#end
+
+#src Processing skins...
+#dst 正在处理皮肤...
+#end
+
+#src Processing skin %d of %d
+#dst 正在处理皮肤 %d / %d
+#end
+
+#src Skin scaling %d%%
+#dst 皮肤缩放 %d%%
+#end
+
+#src Log session
+#dst 日志会话
+#end
+
+#src Hardware
+#dst 硬件
+#end
+
+#src Monitoring history
+#dst 监控历史
+#end
+
+#src Monitoring history - precaching
+#dst 监控历史 - 预缓存
+#end
+
+#src Monitoring history - loading %d%%
+#dst 监控历史 - 加载 %d%%
+#end
+
+#src Cannot find selected session in log file, probably the file has been changed! Do you want to refresh sessions list now?
+#dst 在日志文件中找不到所选会话,文件可能已被更改!是否立即刷新会话列表?
+#end
+
+#src Subsession
+#dst 子会话
+#end
+
+#src third party
+#dst 第三方
+#end
+
+#src There is no Logitech LCD device connected
+#dst 未连接 Logitech LCD 设备
+#end
+
+#src on-die
+#dst 片上
+#end
+
+#src Voltage/Frequency curve editor
+#dst 电压/频率曲线编辑器
+#end
+
+#src Connection to GPU%d lost
+#dst 与 GPU%d 的连接已丢失
+#end
+
+#src Begin FPS recording
+#dst 开始 FPS 记录
+#end
+
+#src End FPS recording
+#dst 结束 FPS 记录
+#end
+
+#src benchmark module
+#dst 基准测试模块
+#end
+
+#src Text files (*.txt)|*.hml|All files (*.*)|*.*||
+#dst 文本文件 (*.txt)|*.hml|所有文件 (*.*)|*.*||
+#end
+
+#src alarm
+#dst 报警
+#end
+
+#src Alarm threshold reached on <%s>, alarm time %dms!
+#dst <%s> 已达到报警阈值,报警时间 %dms!
+#end
+
+#src AUX2 controller
+#dst AUX2 控制器
+#end
+
+#src internal
+#dst 内部
+#end
+
+#src Opacity %d%%
+#dst 不透明度 %d%%
+#end
+
+#src Please enter integer value in %d-%d range!
+#dst 请输入 %d-%d 范围内的整数!
+#end
+
+#src Colors library
+#dst 颜色库
+#end
+
+#src Alignments library
+#dst 对齐库
+#end
+
+#src Sizes library
+#dst 尺寸库
+#end
+
+#src Value alignment
+#dst 数值对齐
+#end
+
+#src Units alignment
+#dst 单位对齐
+#end
+
+#src Group color
+#dst 组颜色
+#end
+
+#src Value color
+#dst 数值颜色
+#end
+
+#src Alarm color
+#dst 报警颜色
+#end
+
+#src Units color
+#dst 单位颜色
+#end
+
+#src Graph color
+#dst 图表颜色
+#end
+
+#src Index size
+#dst 索引尺寸
+#end
+
+#src Value size
+#dst 数值尺寸
+#end
+
+#src Units size
+#dst 单位尺寸
+#end
+
+#src Graph text size
+#dst 图表文本尺寸
+#end
+
+#src <undefined>
+#dst <未定义>
+#end
+
+#src Color %d
+#dst 颜色 %d
+#end
+
+#src Alignment %d
+#dst 对齐 %d
+#end
+
+#src %d chars, left
+#dst %d 字符,左对齐
+#end
+
+#src %d chars, right
+#dst %d 字符,右对齐
+#end
+
+#src Size %d
+#dst 尺寸 %d
+#end
+
+#src %d%% subscript
+#dst %d%% 下标
+#end
+
+#src %d%% superscript
+#dst %d%% 上标
+#end
+
+#src <default>
+#dst <默认>
+#end
+
+#src <any item>
+#dst <任意项>
+#end
+
+#src %d fixed chars, left
+#dst %d 固定字符,左对齐
+#end
+
+#src %d fixed chars, right
+#dst %d 固定字符,右对齐
+#end
+
+#src Separators
+#dst 分隔符
+#end
+
+#src Group name
+#dst 组名称
+#end
+
+#src Group data
+#dst 组数据
+#end
+
+#src Group size
+#dst 组尺寸
+#end
+
+#src Edit color
+#dst 编辑颜色
+#end
+
+#src Edit alignment
+#dst 编辑对齐
+#end
+
+#src Edit size
+#dst 编辑尺寸
+#end
+
+#src Width
+#dst 宽度
+#end
+
+#src Height
+#dst 高度
+#end
+
+#src Margin
+#dst 边距
+#end
+
+#src Style
+#dst 样式
+#end
+
+#src Label
+#dst 标签
+#end
+
+#src Predefined applications
+#dst 预定义应用程序
+#end
+
+#src Miscellaneous
+#dst 杂项
+#end
+
+#src Executable files (*.exe)|*.exe|All files (*.*)|*.*||
+#dst 可执行文件 (*.exe)|*.exe|所有文件 (*.*)|*.*||
+#end
+
+#src Prolog
+#dst 前言
+#end
+
+#src Epilog
+#dst 结语
+#end
+
+#src Group separator
+#dst 组分隔符
+#end
+
+#src Graph separator
+#dst 图表分隔符
+#end
+
+#src Overclocking is disabled due to debug mode
+#dst 由于调试模式,超频已被禁用
+#end
+
+#src Graph style
+#dst 图表样式
+#end
+
+#src graph
+#dst 图表
+#end
+
+#src diagram
+#dst 图表
+#end
+
+#src barchart
+#dst 柱状图
+#end
+
+#src There is no description available for this plugin
+#dst 此插件没有可用的描述
+#end
+
+#src Warning! Applied hardware monitoring plugin settings cannot be canceled. It is recommended to apply hardware monitoring settings, otherwise it will be corrected after restarting application according to changed plugin settings. Do you want to apply hardware monitoring settings now?
+#dst 警告!已应用的硬件监控插件设置无法取消。建议应用硬件监控设置,否则将在重启应用程序后根据已更改的插件设置进行更正。是否立即应用硬件监控设置?
+#end
+
+#src External profile loaded
+#dst 已加载外部配置文件
+#end
+
+#src [apply to all]
+#dst [应用于全部]
+#end
+
+#src [apply to selected]
+#dst [应用于所选]
+#end
+
+#src System color %d
+#dst 系统颜色 %d
+#end
+
+#src System size %d
+#dst 系统尺寸 %d
+#end
+
+#src top
+#dst 顶部
+#end
+
+#src embedded
+#dst 嵌入
+#end
+
+#src bottom
+#dst 底部
+#end
+
+#src Graph placement
+#dst 图表位置
+#end
+
+#src Width (embedded)
+#dst 宽度(嵌入)
+#end
+
+#src Top graphs
+#dst 顶部图表
+#end
+
+#src Text
+#dst 文本
+#end
+
+#src Bottom graphs
+#dst 底部图表
+#end
+
+#src Toggle limiter
+#dst 切换限制器
+#end
+
+#src Enable limiter
+#dst 启用限制器
+#end
+
+#src Disable limiter
+#dst 禁用限制器
+#end
+
+#src CPU%d
+#dst CPU%d
+#end
+
+#src package %d, core %d
+#dst 封装 %d,核心 %d
+#end
+
+#src Bitmap files (*.bmp)|*.bmp||
+#dst 位图文件 (*.bmp)|*.bmp||
+#end
+
+#src Multiple graphs properties
+#dst 多个图表属性
+#end
+
+#src MSI Afterburner properties - saving %d%%
+#dst MSI Afterburner 属性 - 保存 %d%%
+#end
+
+#src process monitoring module
+#dst 进程监控模块
+#end
+
+#src Sorry, the fan speed curve you've defined doesn't appear to be valid! Fan control firmware doesn't support more than %d fan curve nodes!
+#dst 抱歉,您定义的风扇转速曲线似乎无效!风扇控制固件不支持超过 %d 个风扇曲线节点!
+#end
+
+#src Do you really want to hide "%s"? Device will no longer be accessible for selection after application restart.\n\nPlease take a note that you may show all previously hidden devices by holding <Ctrl> pressed during application start.
+#dst 您确实要隐藏"%s"吗?应用程序重启后将无法再选择该设备。\n\n请注意,您可以在应用程序启动时按住 <Ctrl> 键来显示所有先前隐藏的设备。
+#end
+#src The changes you've made will be applied after restarting MSI Afterburner.  Do you want to restart it now?
+#dst 您所做的更改将在重启 MSI Afterburner 后应用。是否要立即重启?
 #end

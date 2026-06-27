@@ -1,35 +1,83 @@
 #src Pause
-#dst ???
+#dst 暂停
 #end
 #src Clear history
-#dst ?????????
+#dst 清除历史记录
 #end
 #src Show status
-#dst ?????
+#dst 显示状态
 #end
 #src Log history to file
-#dst ????????????????
+#dst 将历史记录写入文件
 #end
 #src Always on top
-#dst ??????
+#dst 始终置顶
 #end
 #src Properties
-#dst ????
+#dst 属性
 #end
 
 #src Copy
-#dst ????
+#dst 复制
 #end
 
 #src Show
-#dst ???
+#dst 显示
 #end
 #src Profiles
-#dst ???????
+#dst 配置文件
 #end
 #src Close
-#dst ???
+#dst 关闭
 #end
 #src There are no profiles
-#dst ??????????
+#dst 没有配置文件
+#end
+
+#src Show profiler panel
+#dst 显示分析器面板
+#end
+
+#src Hide attached monitoring panel
+#dst 隐藏附加监控面板
+#end
+
+#src Attach
+#dst 附加
+#end
+
+#src Detach
+#dst 分离
+#end
+
+#src Detach all
+#dst 全部分离
+#end
+
+#src Mark minimum %s
+#dst 标记最小值 %s
+#end
+
+#src Mark maximum %s
+#dst 标记最大值 %s
+#end
+
+#src Remove all markers
+#dst 移除所有标记
+#end
+
+#src Remove selection
+#dst 移除所选
+#end
+
+#src Select by type
+#dst 按类型选择
+#end
+
+#src Select by group
+#dst 按组选择
+#end
+
+#src Reset order
+#dst 重置顺序
 #end
