@@ -1,50 +1,50 @@
 #src GPU temperature
-#dst GPU ???
+#dst GPU 温度
 #end
 #src GPU%d temperature
-#dst GPU%d ???
+#dst GPU%d 温度
 #end
 #src GPU voltage
-#dst GPU ???
+#dst GPU 电压
 #end
 #src GPU%d voltage
-#dst GPU%d ???
+#dst GPU%d 电压
 #end
 #src PCB temperature
-#dst PCB ???
+#dst PCB 温度
 #end
 #src PCB%d temperature
-#dst PCB%d ???
+#dst PCB%d 温度
 #end
 #src Fan speed
 #dst 风扇转速
 #end
 #src GPU%d fan speed
-#dst GPU%d ???????
+#dst GPU%d 风扇转速
 #end
 #src Core clock
 #dst 核心频率
 #end
 #src GPU%d core clock
-#dst GPU%d ???????
+#dst GPU%d 核心频率
 #end
 #src Shader clock
 #dst 着色器频率
 #end
 #src GPU%d shader clock
-#dst GPU%d ????????
+#dst GPU%d 着色器频率
 #end
 #src Memory clock
 #dst 显存频率
 #end
 #src GPU%d memory clock
-#dst GPU%d ??????
+#dst GPU%d 显存频率
 #end
 #src GPU usage
-#dst GPU ?????
+#dst GPU 使用率
 #end
 #src GPU%d usage
-#dst GPU%d ?????
+#dst GPU%d 使用率
 #end
 #src Framerate
 #dst 帧率
@@ -53,10 +53,10 @@
 #dst 显存使用率
 #end
 #src GPU%d memory usage
-#dst GPU%d ????????
+#dst GPU%d 显存使用率
 #end
 #src ??C
-#dst ??C
+#dst °C
 #end
 #src V
 #dst V
@@ -89,19 +89,19 @@
 #dst 辅助电压
 #end
 #src GPU%d aux voltage
-#dst GPU%d ???????
+#dst GPU%d 辅助电压
 #end
 #src Memory voltage
 #dst 显存电压
 #end
 #src GPU%d memory voltage
-#dst GPU%d ?????
+#dst GPU%d 显存电压
 #end
 #src Fan tachometer
 #dst 风扇转速计
 #end
 #src GPU%d fan tachometer
-#dst GPU%d ????????
+#dst GPU%d 风扇转速计
 #end
 #src RPM
 #dst RPM
@@ -110,22 +110,22 @@
 #dst 显存温度
 #end
 #src GPU%d memory temperature
-#dst GPU%d ??????
+#dst GPU%d 显存温度
 #end
 #src VRM temperature
-#dst VRM ???
+#dst VRM 温度
 #end
 #src GPU%d VRM temperature
-#dst GPU%d VRM ???
+#dst GPU%d VRM 温度
 #end
 #src I confirm that I am aware of unofficial overclocking limitations and fully understand that MSI will not provide me any support on it
-#dst ?????????????????????????????????? MSI ???????????κ????
+#dst 我确认我已了解非官方超频的限制,并完全理解 MSI 不会对此提供任何支持
 #end
 #src Power
 #dst 功耗
 #end
 #src GPU%d power
-#dst GPU%d ????
+#dst GPU%d 功耗
 #end
 #src Frametime
 #dst 帧时间
@@ -137,49 +137,49 @@
 #dst 温度限制
 #end
 #src GPU%d temp limit
-#dst GPU%d ???????
+#dst GPU%d 温度限制
 #end
 #src Power limit
 #dst 功耗限制
 #end
 #src GPU%d power limit
-#dst GPU%d ????????
+#dst GPU%d 功耗限制
 #end
 #src Voltage limit
 #dst 电压限制
 #end
 #src GPU%d voltage limit
-#dst GPU%d ???????
+#dst GPU%d 电压限制
 #end
 #src OV max limit
 #dst 过压最大限制
 #end
 #src GPU%d OV max limit
-#dst GPU%d ??????????
+#dst GPU%d 过压最大限制
 #end
 #src FB usage
 #dst FB 使用率
 #end
 #src GPU%d FB usage
-#dst GPU%d ??????????
+#dst GPU%d FB 使用率
 #end
 #src VID usage
-#dst VID ?????
+#dst VID 使用率
 #end
 #src GPU%d VID usage
-#dst GPU%d VID ?????
+#dst GPU%d VID 使用率
 #end
 #src BUS usage
 #dst 总线使用率
 #end
 #src GPU%d BUS usage
-#dst GPU%d ?????????
+#dst GPU%d 总线使用率
 #end
 #src No load limit
 #dst 空载限制
 #end
 #src GPU%d no load limit
-#dst GPU%d ????????
+#dst GPU%d 空载限制
 #end
 
 #src Memory usage \ process
