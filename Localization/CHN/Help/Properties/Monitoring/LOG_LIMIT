@@ -1,7 +1,7 @@
-Stop logging when log size exceeds this value 
-Allows defining an optional limit for maximum log file size. When the limit is exceeded logging process can be automatically terminated.
+当日志大小超过此值时停止记录
+允许定义最大日志文件大小的可选限制。当超过限制时，日志记录过程可自动终止。
 
-Hints:
-- MSI Afterburner saves history in native RivaTuner log file format. You may use RivaTuner to view log files recorded with MSI Afterburner. 
-- Hardware monitoring history logging is not absolutely free in terms of performance, some CPU and is required on each log update iteration to flush data to HDD. 
-- You may disable user interface tooltips via <User interface> tab in advanced properties.
+提示:
+- %PRODUCTNAME% 以原生 RivaTuner 日志文件格式保存历史记录。您可以使用内置查看器或 RivaTuner 查看 %PRODUCTNAME% 录制的日志文件。
+- 硬件监控历史记录并非完全无性能损耗，每次日志更新迭代都需要一些 CPU 时间将数据刷新到硬盘。
+- 您可以在高级属性的<用户界面>选项卡中取消勾选来关闭用户界面工具提示。

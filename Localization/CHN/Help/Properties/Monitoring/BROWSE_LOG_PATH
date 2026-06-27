@@ -1,7 +1,7 @@
-Browse
-Allows browsing for log file.
+浏览
+允许浏览日志文件。
 
-Hints:
-- MSI Afterburner saves history in native RivaTuner log file format. You may use RivaTuner to view log files recorded with MSI Afterburner. 
-- Hardware monitoring history logging is not absolutely free in terms of performance, some CPU and is required on each log update iteration to flush data to HDD. 
-- You may disable user interface tooltips via <User interface> tab in advanced properties.
+提示:
+- %PRODUCTNAME% 以原生 RivaTuner 日志文件格式保存历史记录。您可以使用内置查看器或 RivaTuner 查看 %PRODUCTNAME% 录制的日志文件。
+- 硬件监控历史记录并非完全无性能损耗，每次日志更新迭代都需要一些 CPU 时间将数据刷新到硬盘。
+- 您可以在高级属性的<用户界面>选项卡中取消勾选来关闭用户界面工具提示。

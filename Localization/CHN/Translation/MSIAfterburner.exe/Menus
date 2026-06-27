@@ -2,19 +2,19 @@
 #dst 暂停
 #end
 #src Clear history
-#dst 清除历史纪录
+#dst 清除历史记录
 #end
 #src Show status
-#dst 状态显示
+#dst 显示状态
 #end
 #src Log history to file
-#dst 日志文件保存到
+#dst 将历史记录记录到文件
 #end
 #src Always on top
-#dst 最前端显示
+#dst 置顶显示
 #end
 #src Properties
-#dst 选项
+#dst 属性
 #end
 
 #src Copy
@@ -25,11 +25,11 @@
 #dst 显示
 #end
 #src Profiles
-#dst 自定义设定
+#dst 配置文件
 #end
 #src Close
 #dst 关闭
 #end
 #src There are no profiles
-#dst 无自定义设定
+#dst 没有配置文件
 #end

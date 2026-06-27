@@ -1,8 +1,7 @@
-MSI Kombustor
-使用MSI Kombustor执行显示卡稳定性测试，MSI Kombusot是选用性的独立下载显示卡测试模组，搭载FurMark技术
+Kombustor
+通过 MSI Kombustor 进行显卡稳定性测试。MSI Kombustor 是一个可选的、可单独安装和下载的显卡稳定性测试模块，基于 FurMark 技术。
 
 提示:
-- 如果MSI Kombustor没有安装，此按钮会处於不启动的状态，请到 https://msi.com/page/afterburner 下载并安装最新版本的MSI Kombustor
-- 请切记稳定性测试并非十分准确，没有100%完美的稳定性测试软件，因此请把Kombustor当做超频时的辅助工具，但请用真正的3D软件来确认结果
-- 请至 https://msi.com/page/afterburner 下载MSI Kombustor的最新版本
-- 你可以在“设定” -> “用户界面”选项卡中取消勾选来关闭用户界面提示
+- 如果未安装 MSI Kombustor，此按钮将处于非活动状态，请访问 https://msi.com/page/afterburner 下载并安装最新版本的 MSI Kombustor。
+- 请记住，稳定性测试不是一门精确的科学，因此没有绝对理想和 100% 可靠的稳定性测试应用程序。请在超频系统时将 Kombustor 作为辅助工具，但始终记得用实际的 3D 应用程序再次验证结果。
+- 您可以在高级属性的<用户界面>选项卡中取消勾选来关闭用户界面工具提示。

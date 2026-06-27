@@ -9,132 +9,132 @@
 #dst 常规
 #end
 #src Master graphics processor selection
-#dst 主显示适配器选择
+#dst 主图形处理器选择
 #end
 #src Synchronize settings for similar graphics processors
-#dst 相同显示适配器同步设定
+#dst 同步相似图形处理器的设置
 #end
 #src General properties
-#dst 常规选项
+#dst 常规属性
 #end
 #src Start with Windows
-#dst 跟随Windows启动
+#dst 随 Windows 启动
 #end
 #src Start minimized
 #dst 启动时最小化
 #end
 #src Compatibility properties
-#dst 兼容性
+#dst 兼容性属性
 #end
 #src Enable low-level hardware access interface
-#dst 使用底层硬件访问接口
+#dst 启用底层硬件访问接口
 #end
 #src kernel mode
-#dst 
+#dst 内核模式
 #end
 #src user mode
-#dst 
+#dst 用户模式
 #end
 #src Unlock voltage control
-#dst 解锁电压调整控制
+#dst 解锁电压控制
 #end
 #src Unlock voltage monitoring
-#dst 解锁电压监控控制
+#dst 解锁电压监控
 #end
 #src Force constant voltage
-#dst 强行使用电压
+#dst 强制恒定电压
 #end
 #src Restore settings after suspended mode
-#dst
+#dst 从挂起模式恢复后还原设置
 #end
 #src Graphics processor type
-#dst 显卡芯片类型
+#dst 图形处理器类型
 #end
 #src Update checking properties
-#dst 更新性能检测
+#dst 更新检查属性
 #end
 #src Check for available product updates
-#dst 检测正式版程序更新
+#dst 检查可用的产品更新
 #end
 #src Check for available product beta versions
-#dst 检测测试版程序更新
+#dst 检查可用的产品测试版本
 #end
 #src never
-#dst 禁止
+#dst 从不
 #end
 #src on startup
-#dst 开机启动
+#dst 启动时
 #end
 #src on startup daily
-#dst 每天开机启动
+#dst 每日启动时
 #end
 #src on startup weekly
-#dst 每周开机启动
+#dst 每周启动时
 #end
 #src on startup monthly
-#dst 每月开机启动
+#dst 每月启动时
 #end
 #src Check now
-#dst 现在检测
+#dst 立即检查
 #end
 
 #src Fan
 #dst 风扇
 #end
 #src Automatic fan control properties
-#dst 自动风扇转速控制选项
+#dst 自动风扇控制属性
 #end
 #src Enable user defined software automatic fan control
-#dst 启用该软件用户自定义风扇转速控制
+#dst 启用用户自定义软件自动风扇控制
 #end
-#src Temperature, 癈
-#dst 温度,度
-#end 
+#src Temperature, °C
+#dst 温度,°C
+#end
 #src Fan speed, %
-#dst 风扇转速 %
+#dst 风扇转速,%
 #end
 #src Predefined fan speed curve
-#dst
+#dst 预定义风扇转速曲线
 #end
 #src Custom
-#dst
+#dst 自定义
 #end
 #src Default
-#dst
+#dst 默认
 #end
 #src Fan speed update period (in milliseconds)
-#dst 风扇转速更新间隔 (毫秒)
+#dst 风扇转速更新周期(毫秒)
 #end
-#src Temperature hysteresis (in 癈)
-#dst 热延迟 (in 度)
+#src Temperature hysteresis (in °C)
+#dst 温度滞后(°C)
 #end
 #src Force fan speed update on each period
-#dst
+#dst 强制在每个周期更新风扇转速
 #end
 
 #src Monitoring
 #dst 监控
 #end
 #src Hardware monitoring properties
-#dst 硬件监控设定
+#dst 硬件监控属性
 #end
 #src Hardware polling period (in milliseconds)
-#dst 硬件存取间隔 (毫秒)
+#dst 硬件轮询周期(毫秒)
 #end
 #src Hardware monitoring history logging properties
-#dst 硬件监控日志选项
+#dst 硬件监控历史记录属性
 #end
 #src Browse
 #dst 浏览
 #end
 #src Stop logging when log size exceeds this value (in MB)
-#dst 当日志文件超过这个容量时停止记录 (单位：MB)
+#dst 当日志大小超过此值时停止记录(单位:MB)
 #end
 #src Recreate existing log files
-#dst 重建已有的日志文件
+#dst 重建现有日志文件
 #end
 #src Active hardware monitoring graphs
-#dst 已启用的硬件监控图表
+#dst 活动的硬件监控图表
 #end
 #src Maximum limit
 #dst 最大限制
@@ -143,50 +143,50 @@
 #dst 最小限制
 #end
 #src Override group name
-#dst
+#dst 覆盖组名称
 #end
 #src Enable data filtering
 #dst 启用数据过滤
 #end
 #src Show in On-Screen Display
-#dst 在OSD上显示
+#dst 在屏幕显示中显示
 #end
 #src Show in Logitech keyboard LCD display
-#dst 在罗技LCD键盘上显示
+#dst 在罗技键盘 LCD 显示屏上显示
 #end
 #src Show in tray icon
-#dst 显示系统栏图标
+#dst 在系统托盘图标中显示
 #end
 
 #src On-Screen Display
-#dst OSD显示
+#dst 屏幕显示
 #end
 #src Global On-Screen Display hotkeys
-#dst OSD热键
+#dst 全局屏幕显示热键
 #end
 #src Toggle On-Screen Display
-#dst OSD功能启动切换
+#dst 切换屏幕显示
 #end
 #src Show On-Screen Display
-#dst 显示OSD
+#dst 显示屏幕显示
 #end
 #src Hide On-Screen Display
-#dst 隐藏OSD
+#dst 隐藏屏幕显示
 #end
 #src Additional On-Screen Display properties
-#dst 高级OSD显示选项
+#dst 屏幕显示附加属性
 #end
 #src Show system time
 #dst 显示系统时间
 #end
 #src Show On-Screen Display on captured screenshots and videos
-#dst 在截图或者视频时显示OSD信息
+#dst 在截取的屏幕截图和视频中显示屏幕显示
 #end
 #src On-Screen Display server compatibility properties
-#dst OSD服务端兼容性属性
+#dst 屏幕显示服务器兼容性属性
 #end
 #src Toggle On-Screen Display server blocking
-#dst 切换到OSD服务端锁定
+#dst 切换屏幕显示服务器阻止
 #end
 #src More
 #dst 更多
@@ -194,103 +194,103 @@
 #end
 
 #src Profiles
-#dst 自定义设定
+#dst 配置文件
 #end
 #src Global profile hotkeys
-#dst 自定义设定热键
+#dst 全局配置文件热键
 #end
 #src Profile
-#dst 自定义设定
+#dst 配置文件
 #end
 #src Automatic profiles management
-#dst 自动化个人自定义设定管理
+#dst 自动配置文件管理
 #end
 #src 2D profile
-#dst 2D 自定义设定
+#dst 2D 配置文件
 #end
 #src 3D profile
-#dst 3D 自定义设定
+#dst 3D 配置文件
 #end
 
 #src User Interface
 #dst 用户界面
 #end
 #src User interface properties
-#dst
+#dst 用户界面属性
 #end
 #src English
-#dst 英文
+#dst 英语
 #end
 #src Language
-#dst 语种
+#dst 语言
 #end
 #src Show user interface tooltips
-#dst 显示用户界面提示
+#dst 显示用户界面工具提示
 #end
 #src Show user interface hints
-#dst 显示用户界面建议
+#dst 显示用户界面提示
 #end
 #src Single tray icon mode
-#dst
+#dst 单托盘图标模式
 #end
 #src User interface skinning properties
-#dst 用户界面皮肤选项
+#dst 用户界面皮肤属性
 #end
 
 #src Screen capture
-#dst 截图
+#dst 屏幕截图
 #end
 #src Global screen capture hotkeys
-#dst 全局截图快捷键
+#dst 全局屏幕截图热键
 #end
 #src Screen capture properties
-#dst 截图选项
+#dst 屏幕截图属性
 #end
 #src Screenshot format
-#dst 图片格式
+#dst 截图格式
 #end
 #src Screenshots folder
-#dst 图片路径
+#dst 截图文件夹
 #end
 #src View
 #dst 查看
 #end
 
 #src Video capture
-#dst 视频摄录
+#dst 视频捕获
 #end
 #src Global video capture hotkeys
-#dst 全局屏摄热键
+#dst 全局视频捕获热键
 #end
 #src Video capture properties
-#dst 屏摄选项
+#dst 视频捕获属性
 #end
 #src Frame size
 #dst 帧大小
 #end
 #src full frame
-#dst 
+#dst 全帧
 #end
 #src 1/2 frame
-#dst
+#dst 1/2 帧
 #end
 #src 1/3 frame
-#dst
+#dst 1/3 帧
 #end
 #src 1/4 frame
-#dst
+#dst 1/4 帧
 #end
 #src Video format
 #dst 视频格式
 #end
 #src uncompressed
-#dst
+#dst 未压缩
 #end
 #src RTV1 compression
-#dst
+#dst RTV1 压缩
 #end
 #src MJPG compression
-#dst
+#dst MJPG 压缩
 #end
 #src 1 FPS
 #dst 1 FPS
@@ -299,13 +299,13 @@
 #dst 100 FPS
 #end
 #src Enable gamma correction
-#dst
+#dst 启用伽马校正
 #end
 #src Videos folder
-#dst 视频路径
+#dst 视频文件夹
 #end
 #src Video capture compatibility properties
-#dst 视频录制兼容性
+#dst 视频捕获兼容性属性
 #end
 #src Multithreaded optimization
 #dst 多线程优化
@@ -314,68 +314,68 @@
 #dst 自动
 #end
 #src disabled
-#dst 禁止
+#dst 禁用
 #end
 #src 1 compression thread
-#dst 1 线程压缩
+#dst 1 个压缩线程
 #end
 #src 2 compression threads
-#dst 2 线程压缩
+#dst 2 个压缩线程
 #end
 #src 3 compression threads
-#dst 3 线程压缩
+#dst 3 个压缩线程
 #end
 #src 4 compression threads
-#dst 4 线程压缩
+#dst 4 个压缩线程
 #end
 #src 5 compression threads
-#dst 5 线程压缩
+#dst 5 个压缩线程
 #end
 #src 6 compression threads
-#dst 6 线程压缩
+#dst 6 个压缩线程
 #end
 #src 7 compression threads
-#dst 7 线程压缩
+#dst 7 个压缩线程
 #end
 #src 8 compression threads
-#dst 8 线程压缩
+#dst 8 个压缩线程
 #end
 #src Crop video dimensions to make it multiples of 16
-#dst
+#dst 裁剪视频尺寸使其为 16 的倍数
 #end
 #src Audio capture properties
-#dst 音频录制选项
+#dst 音频捕获属性
 #end
 #src Downmix multichannel audio to stereo
-#dst 多声道立体声混音
+#dst 将多声道音频降混为立体声
 #end
 #src None
-#dst 
+#dst 无
 #end
 #src Auto select
 #dst 自动选择
 #end
 #src DirectSound capture device
-#dst DirectSound 硬件录制
+#dst DirectSound 捕获设备
 #end
 #src WASAPI playback device
-#dst WASAPI 硬件回放
+#dst WASAPI 播放设备
 #end
 #src WASAPI capture device
-#dst WASAPI 硬件录制
+#dst WASAPI 捕获设备
 #end
 #src Audio source #1
-#dst 
+#dst 音频源 #1
 #end
 #src Audio source #2
-#dst 
+#dst 音频源 #2
 #end
 #src Push-To-Talk hotkey
-#dst
+#dst 按键说话热键
 #end
 #src There are no devices available
-#dst 未检测到可用设备
+#dst 没有可用的设备
 #end
 #src Enable MJPG decoder
-#dst
+#dst 启用 MJPG 解码器
 #end

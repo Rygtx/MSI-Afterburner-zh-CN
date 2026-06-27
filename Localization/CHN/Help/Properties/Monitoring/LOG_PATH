@@ -1,7 +1,8 @@
-Log path
-Displays and allows editing path to log file.
+日志路径
+显示并允许编辑日志文件路径。
 
-Hints:
-- MSI Afterburner saves history in native RivaTuner log file format. You may use RivaTuner to view log files recorded with MSI Afterburner. 
-- Hardware monitoring history logging is not absolutely free in terms of performance, some CPU and is required on each log update iteration to flush data to HDD. 
-- You may disable user interface tooltips via <User interface> tab in advanced properties.
+提示:
+- 您可以在路径中指定宏变量。%ABDir% 指定当前 %PRODUCTNAME% 安装文件夹，允许您在便携式应用程序使用场景下使用日志记录；%Time% 允许在文件名中添加时间戳。
+- %PRODUCTNAME% 以原生 RivaTuner 日志文件格式保存历史记录。您可以使用内置查看器或 RivaTuner 查看 %PRODUCTNAME% 录制的日志文件。
+- 硬件监控历史记录并非完全无性能损耗，每次日志更新迭代都需要一些 CPU 时间将数据刷新到硬盘。
+- 您可以在高级属性的<用户界面>选项卡中取消勾选来关闭用户界面工具提示。
