@@ -233,6 +233,9 @@
 #src OC Scanner
 #dst OC Scanner
 #end
+#src Help
+#dst 帮助
+#end
 #src W
 #dst W
 #end
@@ -433,4 +436,37 @@
 #end
 #src %d nodes
 #dst %d 个节点
+#end
+
+
+#src Voltage/frequency curve exchange files (*.vfc)|*.vfc|All files (*.*)|*.*||
+#dst 电压/频率曲线交换文件 (*.vfc)|*.vfc|所有文件 (*.*)|*.*||
+#end
+
+#src Failed to import voltage/frequency curve!
+#dst 导入电压/频率曲线失败!
+#end
+
+#src Dumping thermal changes, last dump : %s
+#dst 转储温度变化,上次转储:%s
+#end
+
+#src Go to voltage
+#dst 跳转到电压
+#end
+
+#src Go to frequency
+#dst 跳转到频率
+#end
+
+#src Reference temperature : %d °C
+#dst 参考温度:%d °C
+#end
+
+#src Voltage from
+#dst 电压从
+#end
+
+#src Voltage to
+#dst 电压到
 #end
