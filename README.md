@@ -70,7 +70,7 @@ Localization\CHN\
 - 所有文本文件统一使用 **GBK(代码页 936)** 编码
 - 行结束符统一为 **CRLF**(`\r\n`)
 - 无 BOM(字节顺序标记)
-- 温度单位 `°C` 中的 `°` 符号使用 GBK 编码字节 `0xA1A3`
+- 温度单位 `°C` 中的 `°` 符号使用 GBK 编码字节 `0xA1E3`
 
 ### 翻译数据库格式
 
@@ -138,8 +138,87 @@ $files = Get-ChildItem -Path $chnRoot -Recurse -File
 与 RUS 参考包比较时,以下差异属正常现象:
 
 - 图标文件不同(`zhcn.ico` 与 `RUS.ico`)
-- `°C` 编码差异(GBK `°`=0xA1A3,Windows-1251 `°`=0xB0)导致比较工具假阳性
+- `°C` 编码差异(GBK `°`=0xA1E3,Windows-1251 `°`=0xB0)导致比较工具假阳性
 - RUS 包含的创建者信息条目
+
+## 已知编码陷阱:°C 的双源问题
+
+### 问题根因
+
+软件原文中包含 `°C` 的字符串分布在两个文件中,且编码方式不同:
+
+| 来源文件 | 编码 | `°C` 字节序列 | RTMUI 解码后字符 |
+|---|---|---|---|
+| `MSIAfterburner.exe` | UTF-16 LE | `B0 00 43 00` | `°C`(`°`=U+00B0) |
+| `RTHAL.dll` | ANSI(cp1252) | `B0 43` | `癈`(`癈`=U+7648) |
+
+系统 ACP=936(GBK),RTMUI 用 GBK 解码软件原文。`RTHAL.dll` 中 ANSI 字符串 `°C` 的字节 `B0 43` 在 GBK 中被合并为单个汉字"癈"(U+7648),原本的"C"(0x43)被吃掉。
+
+因此 RTMUI 实际请求的 `#src` 字符串与肉眼看到的软件界面文本不同:
+
+| 软件原文(肉眼) | RTMUI 请求(#src 应写) | 来源 |
+|---|---|---|
+| `°C` | `癈` | RTHAL.dll ANSI |
+| `%d°C` | `%d癈` | RTHAL.dll ANSI |
+| `Temperature, °C` | `Temperature, 癈` | RTHAL.dll ANSI |
+| `Reference temperature : %d °C` | `Reference temperature : %d 癈` | RTHAL.dll ANSI |
+| `°C` | `°C` | exe UTF-16 |
+| `%d°C` | `%d°C` | exe UTF-16 |
+| `Temperature hysteresis (in °C)` | `Temperature hysteresis (in °C)` | exe UTF-16 |
+
+### 处理规则
+
+- **来自 `RTHAL.dll` ANSI 的 `°C`**:`#src` 写 `癈`(GBK 字节 `B0 43`),`#dst` 写 `°C`(GBK 字节 `A1 E3 43`)
+- **来自 `MSIAfterburner.exe` UTF-16 的 `°C`**:`#src` 写 `°C`(GBK 字节 `A1 E3 43`),`#dst` 写 `°C`
+- **不可混用**:把 ANSI 来源的 `°C` 误写为 `°C` 会导致 `#src` 无法匹配,翻译失败
+
+### 判断 °C 来源的方法
+
+用 PowerShell 脚本搜索两个字节流:
+
+```powershell
+$utf16 = [System.Text.Encoding]::Unicode
+$cp1252 = [System.Text.Encoding]::GetEncoding(1252)
+$exeBytes = [System.IO.File]::ReadAllBytes('MSIAfterburner.exe')
+$dllBytes = [System.IO.File]::ReadAllBytes('RTHAL.dll')
+
+$deg = [char]0xB0   # U+00B0
+$target = ('Temperature, ' + $deg + 'C')
+
+# exe 搜索 UTF-16 LE(° = B0 00)
+$u16 = $utf16.GetBytes($target)
+# RTHAL.dll 搜索 ANSI(° = B0,后跟 43 = 'C')
+$a1 = $cp1252.GetBytes($target)
+```
+
+谁命中就改谁的 `#src`;两边都不命中说明是 RTMUI 内部拼装的单位字符串(如 Internal 中独立的 `°C` / `癈`)。
+
+### CHN 翻译包中所有 °C 条目清单
+
+> 2026-07-13 核验完成,共 7 处
+
+**已改为 `癈`(匹配 RTHAL.dll ANSI):**
+
+| 文件 | 行号 | `#src` 内容 | RTHAL.dll 偏移 |
+|---|---|---|---|
+| `Translation\MSIAfterburner.exe\Dialogs` | 90 | `Temperature, 癈` | 640464 |
+| `Translation\MSIAfterburner.exe\Internal` | 62 | `癈` | (独立单位) |
+| `Translation\MSIAfterburner.exe\Internal` | 66 | `%d癈` | (独立单位) |
+| `Translation\MSIAfterburner.exe\Internal` | 470 | `Reference temperature : %d 癈` | 661108 |
+
+**保持 `°C`(匹配 exe UTF-16):**
+
+| 文件 | 行号 | `#src` 内容 | exe 偏移 |
+|---|---|---|---|
+| `Translation\MSIAfterburner.exe\Dialogs` | 108 | `Temperature hysteresis (in °C)` | 752368 |
+| `Translation\MSIAfterburner.exe\Internal` | 58 | `°C` | (独立单位) |
+| `Translation\MSIAfterburner.exe\StringTable` | 622 | `%d°C` | 816652 |
+
+### 工具陷阱
+
+- **Grep 工具无法搜索 GBK 文件中的 `°`(`A1 E3`)**:会报 `stream did not contain valid UTF-8`
+- 必须用 PowerShell + `[System.Text.Encoding]::GetEncoding(936)` 读取,再用 `[char]0xB0`(`°`) / `[char]0x7648`(`癈`)匹配
+- PowerShell 5.1 脚本中不可直接写 `°` 或 `癈` 字符(无 BOM 的 UTF-8 脚本会被按 GBK 读取导致乱码),必须用 `[char]0xXXXX` 转义
 
 ## 本地化调试
 

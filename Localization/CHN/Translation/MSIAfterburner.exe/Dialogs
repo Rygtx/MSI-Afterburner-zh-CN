@@ -87,7 +87,7 @@
 #src Enable user defined software automatic fan control
 #dst 启用用户自定义软件自动风扇控制
 #end
-#src Temperature, °C
+#src Temperature, 癈
 #dst 温度,°C
 #end
 #src Fan speed, %

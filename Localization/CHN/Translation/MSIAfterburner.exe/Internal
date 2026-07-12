@@ -58,6 +58,14 @@
 #src °C
 #dst °C
 #end
+
+#src 癈
+#dst °C
+#end
+
+#src %d癈
+#dst %d°C
+#end
 #src V
 #dst V
 #end
@@ -459,7 +467,7 @@
 #dst 跳转到频率
 #end
 
-#src Reference temperature : %d °C
+#src Reference temperature : %d 癈
 #dst 参考温度:%d °C
 #end
 
