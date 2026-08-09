@@ -401,6 +401,11 @@
 #src Unofficial overclocking mode
 #dst 非官方超频模式
 #end
+#src disabled
+#dst 禁用
+#hst ComboBox 1255
+#end
+
 #src with PowerPlay support
 #dst 支持 PowerPlay
 #end
