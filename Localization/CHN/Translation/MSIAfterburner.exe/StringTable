@@ -326,6 +326,10 @@
 #src RivaTuner hardware monitoring log files (*.hml)|*.hml|All files (*.*)|*.*||
 #dst RivaTuner 硬件监控日志文件(*.hml)|*.hml|所有文件(*.*)|*.*||
 #end
+#src RivaTuner hardware monitoring log file
+#dst RivaTuner 硬件监控日志文件
+#end
+
 
 #src compiled on %d-%m-%Y %H:%M:%S
 #dst 编译于 %d-%m-%Y %H:%M:%S

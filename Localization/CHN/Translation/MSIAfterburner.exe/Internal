@@ -466,6 +466,14 @@
 #src Go to frequency
 #dst 跳转到频率
 #end
+#src Curve
+#dst 曲线
+#end
+
+#src %+dMHz
+#dst %+dMHz
+#end
+#end
 
 #src Reference temperature : %d 癈
 #dst 参考温度:%d °C
